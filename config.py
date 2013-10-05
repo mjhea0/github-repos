@@ -1,2 +1,2 @@
-PASSWORD = "mike199m"
+PASSWORD = ""
 
