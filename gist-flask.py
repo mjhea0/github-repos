@@ -11,7 +11,6 @@ app.config.from_object('config')
 def showUserGists(username):
 	gists = []
 	r = requests.get(('https://api.github.com/users/%s/repos?type=owner&per_page=100' % username), auth=HTTPBasicAuth('mjhea0', app.config['PASSWORD']))
-
 	c = r.content
 	j = simplejson.loads(c)
 	for item in j:
