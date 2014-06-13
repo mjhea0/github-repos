@@ -43,10 +43,18 @@ def hi():
     new = []
     for student in students:
         new.append(get_repos(student))
+
+    # filter by keyword
+    # for x in (new):
+    #     for y in x:
+    #         if "thinkful" in y.lower():
+    #             repos.append(y)
+
+    # all repos (limit 100)
     for x in (new):
         for y in x:
-            if "refactor" in y.lower():
-                repos.append(y)
+            repos.append(y)
+    print repos
     return render_template('results.html', repos=repos)
 
 
