@@ -1,4 +1,4 @@
-### built for aggregating student repos for refeactorU
+### built for aggregating student repos
 
 ### to do
 
