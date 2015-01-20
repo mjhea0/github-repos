@@ -1,2 +1,0 @@
-PASSWORD = "mike199m"
-
